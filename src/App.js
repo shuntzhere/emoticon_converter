@@ -2,11 +2,26 @@ import React, { useState } from "react";
 import "./styles.css";
 
 var emojiDictionary = {
-  "🤔": "Thinking face",
-  "🤪": "Zany Face",
-  "🤫": "Shushing Face",
-  "😒": "Unamused Face",
-  "🤥": "Lying Face"
+  "😉": "winking",
+  "🤗": "hugging",
+  "😪": "sleepy",
+  "🥵": "hot",
+  "🥶": "cold",
+  "😵": "dizzy",
+  "🤓": "nerd",
+  "😟": "worried",
+  "🤧": "sneezing",
+  "😨": "fearful",
+  "🤔": "thinking",
+  "🤪": "zany",
+  "🤫": "shushing",
+  "😒": "unamused ",
+  "🤥": "lying",
+  "🥳": "partying",
+  "😫": "tired",
+  "😣": "persevering",
+  "😀": "grinning",
+  "😑": "expressionless"
 };
 
 const emojis = Object.keys(emojiDictionary);
@@ -38,7 +53,8 @@ export default function App() {
         placeholder={"Search your emoji"}
         style={{
           padding: "1em",
-          minWidth: "80%"
+          minWidth: "80%",
+          backgroundColor: "#dfe6e9"
         }}
       />
       <h2> {emoji} </h2>
