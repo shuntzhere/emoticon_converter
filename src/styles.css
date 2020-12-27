@@ -2,4 +2,11 @@
   font-family: sans-serif;
   text-align: center;
   background-image: radial-gradient(#f1c40f, #f39c12);
+  height: 100vh;
+  padding-top: 20px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
 }
